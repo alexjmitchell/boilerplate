@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="materialize-css/dist/css/materialize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title><%= pageTitle %></title>
+    <script src="js/main.js" defer type="module"></script>
+    <script src="materialize-css/dist/js/materialize.js" defer></script>
+  </head>
+  <body>
+    <%- include('shared/navigation') %>
+    <div class="container">
+      <h1><%= pageTitle %></h1>
+      <h2>Users List</h2>
+      <% if (users.length > 0) { %>
+      <ul>
+        <% for (const user of users) { %>
+        <li><%= user.firstName %> <%= user.lastName %></li>
+        <% } %>
+      </ul>
+      <% } else { %>
+      <h5>No Users Found</h5>
+      <% } %>
+    </div>
+  </body>
+</html>
