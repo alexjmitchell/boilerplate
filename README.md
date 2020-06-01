@@ -55,5 +55,6 @@
   > some examples include npx sequelize-cli migration:generate --name migration-skeleton if you decided to not install sequelize-cli globally or if you did you can use sequelize migration:generate --name migration-skeleton.
 
 - **Important** If you do not already have a database setup with the same name as in the config/config.json file just run `npx sequelize-cli db:create` or if you have the sequelize-cli installed globally run `sequelize db:create`
+  > Also to run intial db setup run `sequelize db:migrate` or `npx sequelize-cli db:migrate`
 
 ---
