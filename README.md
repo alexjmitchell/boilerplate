@@ -51,6 +51,9 @@
   > Again please insure you are in the correct project path
 
 - Finally we are utilizing sequelize for our database connection. With sequelize and the sequelize-cli you will be able to generate migrations, models, and create connections to your database without having to write your own sql code. For more info on sequelize and the cli for sequelize click [here](https://sequelize.org/v5/index.html).
+
   > some examples include npx sequelize-cli migration:generate --name migration-skeleton if you decided to not install sequelize-cli globally or if you did you can use sequelize migration:generate --name migration-skeleton.
+
+- **Important** If you do not already have a database setup with the same name as in the config/config.json file just run `npx sequelize-cli db:create` or if you have the sequelize-cli installed globally run `sequelize db:create`
 
 ---
