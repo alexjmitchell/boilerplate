@@ -10,8 +10,8 @@
 
 1. ### Must have Node and NPM Installed
 
-    - [Node Download](https://nodejs.org/en/download/)
-      > When node is downloaded you will automatically get npm as well. You can then use commands such as npm install --save      "package name" or npm install --save-dev "package name" for developer dependencies.
+   - [Node Download](https://nodejs.org/en/download/)
+     > When node is downloaded you will automatically get npm as well. You can then use commands such as npm install --save "package name" or npm install --save-dev "package name" for developer dependencies.
 
 2. ### Dev Dependencies
    - node-sass
